@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head><!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBT3IccNwUDvjbbMt-7vAaPFJviOT1r4lU",
+    authDomain: "quizappwithfirebase-3d9a0.firebaseapp.com",
+    databaseURL: "https://quizappwithfirebase-3d9a0.firebaseio.com",
+    projectId: "quizappwithfirebase-3d9a0",
+    storageBucket: "quizappwithfirebase-3d9a0.appspot.com",
+    messagingSenderId: "380245927099",
+    appId: "1:380245927099:web:b40ee62669ebddeefbf59e",
+    measurementId: "G-K1CZDP87JJ"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+<body>
+    
+    <input type="text" id="name">
+    <input type="number" id="roll">
+    <button onclick="saveData()">Save Data</button>
+    <script src="app.js"></script>
+</body>
+</html>

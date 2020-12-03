@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- paste the all links of firebase applicatin script tags -->
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyDKRITlytItS0kL-XT9sQ5EYrSudyYzXNU",
+    authDomain: "fir-authentication-98410.firebaseapp.com",
+    databaseURL: "https://fir-authentication-98410.firebaseio.com",
+    projectId: "fir-authentication-98410",
+    storageBucket: "fir-authentication-98410.appspot.com",
+    messagingSenderId: "621547316681",
+    appId: "1:621547316681:web:650e57f5ac2f1b98293418",
+    measurementId: "G-525PWRYE39"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    
+</head>
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+        <button onclick="login()">Facebook Login</button>
+        <button onclick="signOut()">Sign out   </button>
+
+    <script src="app.js"></script>
+</body>
+</html>
